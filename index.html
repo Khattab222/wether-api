@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>weather app</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+   
+  </head>
+  <body>
+    <nav>
+      <div class="nav-bar p-4 bg-dark">
+        <div class="container text-white d-flex justify-content-between">
+          <div
+            class="logo-content d-flex justify-content-center align-items-center"
+          >
+            <div class="logo-img">
+              <img class="w-100" src="img/logo@2x.png" alt="" />
+            </div>
+            <div class="logo-text mt-3 ms-2">
+              <h6 class="mb-0 fw-bold">weather</h6>
+              <small>tagline goes here</small>
+            </div>
+          </div>
+          <div class="d-flex position-relative align-items-center justify-content-around">
+            <ul class="navbar-nav  flex-md-row justify-content-between">
+              <li class="m-2">
+                <a class="nav-link link-active" href="">Home</a>
+              </li>
+              <li class="m-2"><a class="nav-link" href="">News</a></li>
+              <li class="m-2"><a class="nav-link" href="">Live cameras</a></li>
+              <li class="m-2"><a class="nav-link" href="">Photos</a></li>
+              <li class="m-2"><a class="nav-link" href="">Contact</a></li>
+            </ul>
+            <div id="toggleBtn" class="nav-toggle">
+              <i class="fa-solid fs-2 fa-bars"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+   <main>
+    <div class="search-section">
+      <div class="container py-5">
+        <div class="form-search">
+          <input
+            type="text"
+            id="search"
+            placeholder="Find Your location....."
+            class="w-100 text-white bg-dark rounded-pill border-0 form-control"
+          />
+          <input class="rounded-pill" type="button" value="Find" id="submit" />
+        </div>
+      </div>
+    </div>
+
+    <div class="wather-data ">
+      <div class="container">
+        <div class="row rounded forecast-container justify-content-center text-white">
+          <div class="today  forecast col-md-4 p-0">
+            
+          </div>
+          <div class="col-md-4 p-0 next1day forecast text-center">
+           
+          </div>
+          <div class="col-md-4 p-0 next2day forecast text-center">
+            
+          </div>
+         
+        </div>
+      </div>
+    </div>
+   </main>
+    <footer>
+      <div class="container">
+       <div class="row align-items-center ">
+        <div class="col-md-8">
+          <div class="form-search">
+            <input
+              type="text"
+              id="search"
+              placeholder="Enter your email to subscribe..."
+              class="w-100 text-white bg-dark rounded-pill border-0 form-control"
+            />
+            <input class="rounded-pill" type="button" value="subscribe" id="submit" />
+          </div>
+        </div>
+        <div class="col-md-4  text-end">
+          <div class="social">
+            <div><i class="fa-brands fa-facebook"></i></div>
+           <div> <i class="fa-brands fa-twitter"></i></div>
+           <div><i class="fa-brands fa-google-plus-g"></i></div>
+            <div><i class="fa-brands fa-pinterest"></i></div>
+          </div>
+        </div>
+       </div>
+       <div class="text-white mt-5">Copyright 2014 Company name. Designed by Themezy. All rights reserved</div>
+      </div>
+
+    </footer>
+
+
+
+    <script  src="js/bootstrap.bundle.min.js"></script>
+    <script  src="js/main.js"></script>
+  </body>
+</html>
